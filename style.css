@@ -1,0 +1,32 @@
+body{
+	background-image: 
+	url('https://i.pinimg.com/236x/8b/66/70/8b6670f52a729a158c27c73d3ff010c8.jpg');
+	background-size: auto 100vw ;
+	font-family: arial;
+	height: 100vh;
+
+}
+.menu{
+	background-color: white;
+}
+.menu ul{
+	display: flex;
+	justify-content: space-around;
+}
+.menu li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a: hover{
+	text-decoration: underline;
+}
+.title,
+.subtitle{
+	text-align: center;
+	color: whitesmoke;
+}
+.subtitle{
+	font-style: italic;
+}
